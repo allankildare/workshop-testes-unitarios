@@ -1,0 +1,10 @@
+{
+    "setupFilesAfterEnv": [
+        "@testing-library/jest-dom/extend-expect"
+    ],
+    "testMatch": [
+        "**/?(*.)spec.js?(x)",
+        "**/?(*.)test.js?(x)"
+    ],
+    "testEnvironment": "jsdom"
+}
